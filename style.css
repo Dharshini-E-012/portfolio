@@ -402,6 +402,30 @@ nav {
   margin-bottom: 1rem;
 }
 
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.tech-badge {
+    background: linear-gradient(135deg, #4f46e5, #7c3aed);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 25px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    cursor: default;
+    box-shadow: 0 4px 10px rgba(79, 70, 229, 0.25);
+}
+
+.tech-badge:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(79, 70, 229, 0.4);
+}
+
 /* Mobile Responsive */
 @media screen and (max-width: 768px) {
   .projects-grid {
@@ -775,3 +799,4 @@ footer p {
     text-align: center;
   }
 }
+
